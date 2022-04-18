@@ -34,19 +34,10 @@
 
 <!-- OVERVIEW -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Overview
 
-![Screenshot]<img src="web-error-page.jpg">
-=======
 <h1>Overview</h1>
 <img src="web-error-page.jpg">
->>>>>>> d0ed0d90906d0dca67a5640c2cda977650ccc67f
-=======
-<h1>Overview</h1>
-<img src="web-error-page.jpg">
->>>>>>> d0ed0d90906d0dca67a5640c2cda977650ccc67f
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
