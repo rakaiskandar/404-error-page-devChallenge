@@ -126,7 +126,6 @@ nav.container{
 .showcase-image .img{
     position: relative;
     height: 447.43px;
-    width: 539.22px;
     right: 10%;
     margin-top: 90px;
     bottom: 34.03%;
@@ -159,5 +158,27 @@ nav.container{
     color: var(--text-color);
 }
 
+@media only screen and (min-width:576px){
+    .showcase-area{
+        padding: 120px 0;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .showcase-area .container{
+        display: grid;
+        grid-row: inherit;
+        grid-template-columns: 1fr 630px;
+        row-gap: 2em;
+        height: calc(100vh - 120px);
+        max-height: 500px;
+        align-items: center;
+    }
+
+    .showcase-info{
+        position: relative;
+        width: 100%;
+    }
+}
 
 
