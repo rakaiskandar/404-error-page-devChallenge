@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/rakaiskandar/404-error-page-devChallenge/web-error-page.jpg)
+![screenshot]<img src="web-error-page.jpg">
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
