@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/rakaiskandar/404-error-page-devChallenge">
       Solution
     </a>
     <span> | </span>
@@ -69,4 +69,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@rakaiskandar](https://{github.com/your-usermame})
+- GitHub [@rakaiskandar](https://github.com/rakaiskandar)
