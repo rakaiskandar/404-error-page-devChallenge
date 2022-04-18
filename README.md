@@ -34,8 +34,6 @@
 
 <!-- OVERVIEW -->
 
-## Overview
-
 <h1>Overview</h1>
 <img src="web-error-page.jpg">
 
