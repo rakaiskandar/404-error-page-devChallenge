@@ -1,0 +1,163 @@
+/* -------- Font Theme ------- */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@400;500&family=Space+Mono:wght@400;700&display=swap');
+
+:root{
+    --text-color: #333333
+}
+
+::selection{
+    background-color: var(--text-color);
+    color: #fff;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    max-width: 75rem;
+}
+
+header{
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header.logo{
+    width: 133px;
+    line-height: 25.18px;
+}
+
+nav.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 120px;
+    line-height: 25.28px;
+    font-family: "Inconsolata",sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.08em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.showcase-area{
+    padding: 120px 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.showcase-area .container{
+    display: grid;
+    grid-template-columns: 1fr 630px;
+    column-gap: 2em;
+    height: calc(100vh - 120px);
+    max-height: 500px;
+    align-items: center;
+}
+
+.showcase-info{
+    position: relative;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.showcase-info .heading{
+    margin-bottom: 3rem;
+}
+
+.showcase-info .text{
+    margin: 0.8rem 0;
+}
+
+.heading{
+    font-family: "Space Mono",sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: var(--text-color);
+}
+
+.text{
+    font-family: "Space Mono", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+.cta{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--text-color);
+    color: #fff;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 216px;
+    height: 68px;
+    text-align: center;
+}
+
+.btn p{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.showcase-image{
+    position: relative;
+    width: 100%;
+    min-height: calc(100% + 130px);
+}
+
+.showcase-image .img{
+    position: relative;
+    height: 447.43px;
+    width: 539.22px;
+    right: 10%;
+    margin-top: 90px;
+    bottom: 34.03%;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer-text p{
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.footer-text span{
+    font-weight: 500;
+}
+
+.footer-text a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+
