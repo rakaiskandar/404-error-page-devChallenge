@@ -35,8 +35,8 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
-![screenshot]<img src="web-error-page.jpg">
+<h1>Overview Error Page</h1>
+<img src="web-error-page.jpg">
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
